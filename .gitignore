@@ -1,0 +1,38 @@
+# Personal data: never publish
+config.json
+config.tmp
+*.env
+.env*
+events/
+
+# Environments, models and caches (downloaded or built on first run)
+.venv/
+.venv-brain/
+.cache/
+models/
+__pycache__/
+*.pyc
+
+# Built programs (made by build.py)
+*.exe
+build/
+dist/
+*.spec
+
+# Media and databases (recordings, snapshots, test footage)
+*.mp4
+*.jpg
+*.jpeg
+*.png
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# ...except the phone web app's own icons and test picture (shipped with the app)
+!yardguard/web/*.png
+!yardguard/web/sample.jpg
+
+# Installed by setup/bootstrap.ps1 (Python, ffmpeg)
+/runtime/
+/tools/

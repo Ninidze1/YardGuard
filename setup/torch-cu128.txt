@@ -1,0 +1,6 @@
+# PyTorch for NVIDIA GPUs (CUDA 12.8). Made by setup/lock_requirements.py.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.9.1+cu128 \
+    --hash=sha256:3a01f0b64c10a82d444d9fd06b3e8c567b1158b76b2764b8f51bfd8f535064b0
+torchvision==0.24.1+cu128 \
+    --hash=sha256:33ecea57afa1daeedfed443a8a0cb8e4b0b403fdf18c2a328ba6f9069d403384

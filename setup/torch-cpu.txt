@@ -1,0 +1,6 @@
+# PyTorch for the processor only. Made by setup/lock_requirements.py.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.9.1+cpu \
+    --hash=sha256:a4e06b4f441675d26b462123c8a83e77c55f1ec8ebc081203be2db1ea8054add
+torchvision==0.24.1+cpu \
+    --hash=sha256:af904a34b563c302fa4583a4746f3108bafdc5823a67c912d6023a8fe9b01c51

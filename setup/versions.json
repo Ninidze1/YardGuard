@@ -1,0 +1,24 @@
+{
+  "comment": "Pinned downloads for setup/bootstrap.ps1. Every file is checked against its SHA-256 before use.",
+  "python": {
+    "version": "3.12.10",
+    "source": "Official python.org build, NuGet package 'python' (published by the Python Software Foundation)",
+    "url": "https://www.nuget.org/api/v2/package/python/3.12.10",
+    "sha256": "0eb85c2dfccccf1b17352de4c397f69194035b7d37149eacc16f1147d93de3b8",
+    "size": 14515433,
+    "signer": "Python Software Foundation"
+  },
+  "ffmpeg": {
+    "version": "9.0.2",
+    "source": "gyan.dev release build, as published on GitHub (GyanD/codexffmpeg); the same files WinGet installs as Gyan.FFmpeg",
+    "url": "https://github.com/GyanD/codexffmpeg/releases/download/9.0.2/ffmpeg-9.0.2-full_build.zip",
+    "sha256": "759d0a9831c436a0eb331ad36f236c06cb04aaa0005da46571f0e9d3d9206f6b",
+    "size": 257736868,
+    "folder": "ffmpeg-9.0.2-full_build",
+    "files": {
+      "bin/ffmpeg.exe": "589e50b766d251afdf181dd664d40bd94407e200b019989fd7468c7d118a28d0",
+      "bin/ffprobe.exe": "02264dfa4f56baaa31e443ece8aa16d397f6b008200e7fd184d22b9009e75fd3",
+      "LICENSE": ""
+    }
+  }
+}

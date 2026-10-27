@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/banner.jpg" alt="YardGuard watching a parked-car yard at night" width="100%"></p>
+
 # YardGuard
 
 YardGuard watches your security cameras with AI on your own Windows PC and tells you when
